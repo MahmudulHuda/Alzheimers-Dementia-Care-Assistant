@@ -1,0 +1,65 @@
+[
+ {
+  "id": "1",
+  "question": "What is Alzheimer's disease?",
+  "answer": "Alzheimer's disease is a brain disorder that slowly destroys memory and thinking skills. It is the most common cause of dementia in older adults.",
+  "focus": "Alzheimer's Disease",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "2",
+  "question": "What are the symptoms of Alzheimer's disease?",
+  "answer": "Memory problems are usually the first sign. Later symptoms include getting lost, trouble handling money, repeating questions and changes in mood or personality.",
+  "focus": "Alzheimer's Disease",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "3",
+  "question": "What are the treatments for Alzheimer's disease?",
+  "answer": "There is no cure. Some medicines may help with memory symptoms for a limited time, and doctors can treat sleep or behaviour problems.",
+  "focus": "Alzheimer's Disease",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "4",
+  "question": "How can I cope with caring for someone who has dementia?",
+  "answer": "Caregiving is tiring. Ask family and friends for help, join a support group, take breaks every day and look after your own health.",
+  "focus": "Alzheimer's Caregiving",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "5",
+  "question": "What is vascular dementia?",
+  "answer": "Vascular dementia is caused by reduced blood flow to the brain, often after a stroke or a series of small strokes.",
+  "focus": "Vascular Dementia",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "6",
+  "question": "Is Alzheimer's disease inherited?",
+  "answer": "Most cases are not directly inherited, although having a parent or sibling with the disease raises the risk somewhat.",
+  "focus": "Alzheimer's Disease",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "7",
+  "question": "What is Alzheimer's disease?",
+  "answer": "Alzheimer's is an irreversible, progressive brain disease. Symptoms usually first appear after age 60.",
+  "focus": "Alzheimer's Disease",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ }
+]

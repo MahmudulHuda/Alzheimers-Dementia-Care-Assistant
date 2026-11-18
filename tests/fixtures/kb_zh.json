@@ -1,0 +1,65 @@
+[
+ {
+  "id": "1",
+  "question": "什么是阿尔茨海默病？",
+  "answer": "阿尔茨海默病是一种脑部疾病，会慢慢破坏记忆和思维能力，是老年人痴呆最常见的原因。",
+  "focus": "阿尔茨海默病",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "2",
+  "question": "阿尔茨海默病有哪些症状？",
+  "answer": "记忆问题通常是最早的表现，之后可能出现迷路、理财困难、重复提问以及情绪或性格改变。",
+  "focus": "阿尔茨海默病",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "3",
+  "question": "阿尔茨海默病如何治疗？",
+  "answer": "目前无法治愈。一些药物可在有限时间内帮助改善记忆症状。",
+  "focus": "阿尔茨海默病",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "4",
+  "question": "照顾痴呆症患者时我该如何应对压力？",
+  "answer": "照护很辛苦。请向家人和朋友求助，参加支持小组，每天休息，并照顾好自己的健康。",
+  "focus": "阿尔茨海默病照护",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "5",
+  "question": "什么是血管性痴呆？",
+  "answer": "血管性痴呆由脑部供血减少引起，常发生在中风之后。",
+  "focus": "血管性痴呆",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "6",
+  "question": "阿尔茨海默病会遗传吗？",
+  "answer": "大多数病例不是直接遗传的，但父母或兄弟姐妹患病会使风险略有增加。",
+  "focus": "阿尔茨海默病",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "7",
+  "question": "什么是阿尔茨海默病？",
+  "answer": "阿尔茨海默病是一种不可逆的进行性脑部疾病，症状通常在60岁以后出现。",
+  "focus": "阿尔茨海默病",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ }
+]

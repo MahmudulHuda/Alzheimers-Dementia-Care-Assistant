@@ -1,0 +1,65 @@
+[
+ {
+  "id": "1",
+  "question": "আলঝেইমার রোগ কী?",
+  "answer": "আলঝেইমার রোগ মস্তিষ্কের একটি অসুখ যা ধীরে ধীরে স্মৃতিশক্তি ও চিন্তা করার ক্ষমতা নষ্ট করে। বয়স্কদের মধ্যে ডিমেনশিয়ার সবচেয়ে সাধারণ কারণ এটি।",
+  "focus": "আলঝেইমার রোগ",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "2",
+  "question": "আলঝেইমার রোগের লক্ষণগুলো কী কী?",
+  "answer": "সাধারণত প্রথম লক্ষণ হলো স্মৃতির সমস্যা। পরে পথ হারিয়ে ফেলা, টাকা-পয়সার হিসাব রাখতে অসুবিধা, একই প্রশ্ন বারবার করা এবং মেজাজের পরিবর্তন দেখা যায়।",
+  "focus": "আলঝেইমার রোগ",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "3",
+  "question": "আলঝেইমার রোগের চিকিৎসা কী?",
+  "answer": "এই রোগের নিরাময় নেই। কিছু ওষুধ সীমিত সময়ের জন্য স্মৃতির লক্ষণে সাহায্য করতে পারে।",
+  "focus": "আলঝেইমার রোগ",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "4",
+  "question": "ডিমেনশিয়া রোগীর যত্ন নিতে গিয়ে আমি কীভাবে নিজেকে সামলাব?",
+  "answer": "পরিচর্যা ক্লান্তিকর। পরিবার ও বন্ধুদের সাহায্য নিন, প্রতিদিন বিরতি নিন এবং নিজের স্বাস্থ্যের খেয়াল রাখুন।",
+  "focus": "আলঝেইমার পরিচর্যা",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "5",
+  "question": "ভাসকুলার ডিমেনশিয়া কী?",
+  "answer": "মস্তিষ্কে রক্ত চলাচল কমে গেলে ভাসকুলার ডিমেনশিয়া হয়, প্রায়ই স্ট্রোকের পরে।",
+  "focus": "ভাসকুলার ডিমেনশিয়া",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "6",
+  "question": "আলঝেইমার রোগ কি বংশগত?",
+  "answer": "বেশিরভাগ ক্ষেত্রে সরাসরি বংশগত নয়, তবে বাবা-মা বা ভাইবোনের থাকলে ঝুঁকি কিছুটা বাড়ে।",
+  "focus": "আলঝেইমার রোগ",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ },
+ {
+  "id": "7",
+  "question": "আলঝেইমার রোগ কী?",
+  "answer": "আলঝেইমার একটি অপরিবর্তনীয়, ক্রমশ বাড়তে থাকা মস্তিষ্কের রোগ। লক্ষণ সাধারণত ৬০ বছরের পরে দেখা দেয়।",
+  "focus": "আলঝেইমার রোগ",
+  "qtype": "information",
+  "source": "NIHSeniorHealth",
+  "url": "https://nihseniorhealth.gov/"
+ }
+]

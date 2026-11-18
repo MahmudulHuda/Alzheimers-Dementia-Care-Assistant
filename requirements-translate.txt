@@ -1,0 +1,5 @@
+# only needed to rebuild the Bangla / Chinese data yourself
+deep-translator>=1.11        # scripts/translate_kb.py (Google Translate)
+transformers>=4.40           # scripts/translate_nllb.py (offline, NLLB-200)
+sentencepiece>=0.2
+torch>=2.1

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+*.zip
+
+# downloaded source data and translation caches (rebuildable)
+data/raw/
+data/.tr_cache_*.json
+data/.nllb_cache_*.json

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dementia Care Q&amp;A</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="title">Dementia Care Q&amp;A</h1>
+      <select id="lang" aria-label="Language">
+        <option value="auto">Auto</option>
+        <option value="en">English</option>
+        <option value="bn">বাংলা</option>
+        <option value="zh">中文</option>
+      </select>
+    </header>
+    <p id="intro" class="intro"></p>
+
+    <div id="chat" aria-live="polite"></div>
+    <div id="chips"></div>
+
+    <form id="form">
+      <input id="q" type="text" maxlength="500" autocomplete="off" autofocus>
+      <button id="send" type="submit"></button>
+    </form>
+    <p id="disclaimer" class="disclaimer"></p>
+  </main>
+
+  <script>const AVAILABLE = {{ available|tojson }};</script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
