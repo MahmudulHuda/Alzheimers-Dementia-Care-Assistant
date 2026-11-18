@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Alzheimer's & Dementia Care Assistant"
+type: software
+authors:
+  - family-names: Huda
+    given-names: Syed Mahmudul
+license: MIT
+repository-code: "https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant"
+date-released: 2026-11-19
+keywords:
+  - alzheimers
+  - dementia
+  - caregivers
+  - question-answering
+  - bangla
+  - chinese
+  - multilingual
+references:
+  - type: article
+    title: "A question-entailment approach to question answering"
+    authors:
+      - family-names: Ben Abacha
+        given-names: Asma
+      - family-names: Demner-Fushman
+        given-names: Dina
+    journal: "BMC Bioinformatics"
+    year: 2019
+    doi: "10.1186/s12859-019-3119-4"

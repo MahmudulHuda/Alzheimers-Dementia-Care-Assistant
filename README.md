@@ -1,17 +1,55 @@
-# Alzheimer's & Dementia Care Assistant
+<p align="center">
+  <img src="docs/banner.svg" alt="Alzheimer's &amp; Dementia Care Assistant" width="100%">
+</p>
 
-[![tests](https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant/actions/workflows/tests.yml)
+<p align="center">
+  <a href="https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant/actions/workflows/tests.yml"><img src="https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/code-MIT-2f5d62" alt="MIT licence"></a>
+  <a href="#data"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-2f5d62" alt="Data CC BY 4.0"></a>
+  <img src="https://img.shields.io/badge/languages-English%20%7C%20Bangla%20%7C%20Chinese-6c8f86" alt="English, Bangla, Chinese">
+</p>
 
-A small question-answering assistant for families and caregivers of people
-living with Alzheimer's disease or another dementia. It answers in
-**English, Bangla (বাংলা) and Mandarin Chinese (中文)**.
+A question-answering assistant for families and caregivers of people living
+with Alzheimer's disease or another dementia. It answers in **English,
+Bangla (বাংলা) and Mandarin Chinese (中文)**.
 
-It is built to run on an old laptop: no GPU, no language model, no API
-key. Answers are looked up, not generated, so it can't make things up. If
-nothing in the data matches well enough, it says so.
+It runs on an old laptop: no GPU, no language model, no API key. Answers
+are looked up in NIH material, not generated, so it can't make things up.
+If nothing matches well enough, it says so.
 
-> This gives general health information only. It is not medical advice and
-> it is not a replacement for a doctor.
+> [!IMPORTANT]
+> General health information only. It is not medical advice and does not
+> replace a doctor.
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="The web page answering a Chinese and an English question" width="620">
+</p>
+
+## Features
+
+- **Three languages.** Type in English, Bangla or Chinese; the language is detected automatically.
+- **Grounded answers.** Every answer comes from an NIH page and links back to it.
+- **Knows when it doesn't know.** Low-confidence matches get "not sure" instead of a guess.
+- **Emergency check.** Messages about someone missing, not breathing or in danger get a "call for help now" note first.
+- **Lightweight.** TF-IDF search with scikit-learn; loads in a few seconds and needs no GPU.
+- **Web page or terminal.** A small Flask site (`app.py`) or a command-line chat (`cli.py`).
+
+## Quick start
+
+Python 3.10 or newer. The finished data is already in `data/`, so there is
+nothing to download or translate.
+
+```bash
+git clone https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant.git
+cd Alzheimers-Dementia-Care-Assistant
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+python app.py                   # open http://127.0.0.1:5000
+python cli.py                   # or stay in the terminal
+```
 
 ## How it works
 
@@ -32,22 +70,6 @@ nothing in the data matches well enough, it says so.
 
 Character n-grams mean no tokenizer is needed for Bangla or Chinese, and
 small typos in English still match.
-
-## Quick start
-
-Python 3.10 or newer. The finished data is already in `data/`, so there is
-nothing to download or translate.
-
-```bash
-git clone https://github.com/MahmudulHuda/Alzheimers-Dementia-Care-Assistant.git
-cd Alzheimers-Dementia-Care-Assistant
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-python app.py                   # open http://127.0.0.1:5000
-python cli.py                   # or stay in the terminal
-```
 
 ## What's in `data/`
 
@@ -106,19 +128,10 @@ scripts/
 notebooks/
   build_data_colab.ipynb  rebuild the data on a free Colab GPU
 data/                   the finished knowledge base (en, bn, zh)
+docs/                   banner and screenshot for this README
 templates/, static/     web page
 tests/
 ```
-
-## Data
-
-MedQuAD: Ben Abacha A, Demner-Fushman D. *A Question-Entailment Approach
-to Question Answering.* BMC Bioinformatics, 2019. Released under CC BY 4.0.
-The copy used here is the parquet conversion at
-[lavita/MedQuAD](https://huggingface.co/datasets/lavita/MedQuAD) on
-Hugging Face, which leaves out the MedlinePlus answers for copyright
-reasons. The files in `data/`, translations included, are derived from
-MedQuAD and stay under CC BY 4.0.
 
 ## Limitations
 
@@ -134,6 +147,21 @@ MedQuAD and stay under CC BY 4.0.
   similar wording. The score cut-offs in `careqa/retriever.py` (`MIN_SCORE`)
   may need adjusting once you look at real questions.
 - The emergency check is a keyword list and will miss things.
+
+## Data
+
+MedQuAD: Ben Abacha A, Demner-Fushman D. *A Question-Entailment Approach
+to Question Answering.* BMC Bioinformatics, 2019. Released under CC BY 4.0.
+The copy used here is the parquet conversion at
+[lavita/MedQuAD](https://huggingface.co/datasets/lavita/MedQuAD) on
+Hugging Face, which leaves out the MedlinePlus answers for copyright
+reasons. The files in `data/`, translations included, are derived from
+MedQuAD and stay under CC BY 4.0.
+
+## Citation
+
+If you use this project, GitHub's **Cite this repository** button (from
+[`CITATION.cff`](CITATION.cff)) gives the reference.
 
 ## Licence
 

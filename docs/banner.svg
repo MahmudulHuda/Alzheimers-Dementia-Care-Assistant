@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Alzheimer's and Dementia Care Assistant">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f5d62"/>
+      <stop offset="1" stop-color="#1d3b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="#f4f1ec" stroke-opacity="0.12" stroke-width="2">
+    <circle cx="1040" cy="150" r="70"/>
+    <circle cx="1040" cy="150" r="110"/>
+    <circle cx="1040" cy="150" r="150"/>
+  </g>
+  <g transform="translate(1040 150)" fill="#f4f1ec" fill-opacity="0.9">
+    <path d="M0 34 C-40 6 -46 -26 -24 -38 C-12 -44 -2 -38 0 -28 C2 -38 12 -44 24 -38 C46 -26 40 6 0 34 Z"/>
+  </g>
+  <text x="70" y="128" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700">Alzheimer's &amp; Dementia</text>
+  <text x="70" y="184" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700">Care Assistant</text>
+  <text x="72" y="232" fill="#d6e4df" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Answers for families and caregivers  ·  English · বাংলা · 中文</text>
+</svg>
